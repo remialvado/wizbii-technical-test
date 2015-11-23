@@ -1,4 +1,4 @@
-Obectifs
+Objectifs
 ========
 
 Le but de cet exercice est de refaire une petite partie du flux d'actualité de Wizbii en se basant sur l'API publique offerte par Wizbii. Un exemple de ce qui est attendu en terme visuel est disponible à l'adresse https://remialvado.github.io/wizbii-technical-test/index.html
@@ -10,6 +10,7 @@ Les consignes de cet exercice :
 * ne faire aucun appel au serveur pouvant créer de la donnée. Exemple : l'ajout de thanx ou de publications doit être mocké
 * les technos et outils utilisés ne sont pas imposées.
 * le compte à utiliser : decouverte@wizbii.com / decouvertewizbii
+* le code doit être disponible sur github ou bitbucket et une version fonctionnelle doit être disponible sur github pages, heroku, AWS, ... A toi de faire tes choix mais on veut voir du code et on veut le voir tourner
 
 API
 ===
