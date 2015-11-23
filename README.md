@@ -26,7 +26,7 @@ L'API d'authentification suit les normes oAuth2.0. Il faut faire un appel POST s
 
 Si tout se passe bien, ce service répond avec une 200 contenant le access-token à fournir avec toutes les requêtes suivantes ainsi que le profile courant.
 Exemple  :
-    curl -X POST -H "Content-Type: application/x-www-form-urlencoded" -d 'username=decouverte%40wizbii.com&password=decouvertewizbii&client_id=test&grant_type=password' 'https://api.wizbii.com/v1/account/validate'
+  curl -X POST -H "Content-Type: application/x-www-form-urlencoded" -d 'username=decouverte%40wizbii.com&password=decouvertewizbii&client_id=test&grant_type=password' 'https://api.wizbii.com/v1/account/validate'
 
 Dashboard
 ---------
@@ -34,4 +34,4 @@ Dashboard
 L'API pour accéder au dashboard nécessite l'envoi du access-token dans les Headers de la requête. En réponse, il retourne une liste de FeedItems qui sont à afficher. Attention : ce service peut mettre quelques secondes à répondre.
 
 Exemple :
-    curl -v -X POST -H "Authorization: Bearer 8edjjh0jsggscgoscokk8ok0gc40ss0" 'https://api.wizbii.com/v2/dashboard/?direction=newest'
+  curl -v -X POST -H "Authorization: Bearer 8edjjh0jsggscgoscokk8ok0gc40ss0" 'https://api.wizbii.com/v2/dashboard/?direction=newest'
