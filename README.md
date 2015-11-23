@@ -9,7 +9,7 @@ Les consignes de cet exercice :
 * intégrer au minimum le module faisant apparaitre des publications simples.
 * ne faire aucun appel au serveur pouvant créer de la donnée. Exemple : l'ajout de thanx ou de publications doit être mocké
 * les technos et outils utilisés ne sont pas imposées.
-* le compte à utiliser : remi.alvado+wizbii-technical-test@gmail.com / wizbii
+* le compte à utiliser : decouverte@wizbii.com / decouvertewizbii
 
 API
 ===
@@ -21,4 +21,16 @@ L'API d'authentification suit les normes oAuth2.0. Il faut faire un appel POST s
 * *grant_type* : seul le grant_type "password" est supporté pour le moment
 * *username* : le mail de la personne qui souhaite se logger
 * *password* : le password de la personne qui soihaite se logger
-* *client_id* : l'identifiant du client. Dans ce cas : _test_ 
+* *client_id* : l'identifiant du client. Dans ce cas : _test_
+
+Si tout se passe bien, ce service répond avec une 200 contenant le access-token à fournir avec toutes les requêtes suivantes ainsi que le profile courant.
+Exemple  :
+    curl -X POST -H "Content-Type: application/x-www-form-urlencoded" -d 'username=decouverte%40wizbii.com&password=decouvertewizbii&client_id=test&grant_type=password' 'https://api.wizbii.com/v1/account/validate'
+
+Dashboard
+---------
+
+L'API pour accéder au dashboard nécessite l'envoi du access-token dans les Headers de la requête. En réponse, il retourne une liste de FeedItems qui sont à afficher. Attention : ce service peut mettre quelques secondes à répondre.
+
+Exemple :
+    curl -v -X POST -H "Authorization: Bearer 8edjjh0jsggscgoscokk8ok0gc40ss0" 'https://api.wizbii.com/v2/dashboard/?direction=newest'
