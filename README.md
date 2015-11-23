@@ -28,7 +28,9 @@ Si tout se passe bien, ce service répond avec une 200 contenant le access-token
 Exemple  :
 
 ```shell
-curl -X POST -H "Content-Type: application/x-www-form-urlencoded" -d 'username=decouverte%40wizbii.com&password=decouvertewizbii&client_id=test&grant_type=password' 'https://api.wizbii.com/v1/account/validate'
+curl -X POST -H "Content-Type: application/x-www-form-urlencoded" \
+-d 'username=decouverte%40wizbii.com&password=decouvertewizbii&client_id=test&grant_type=password' \
+'https://api.wizbii.com/v1/account/validate'
 ```
 
 Dashboard
