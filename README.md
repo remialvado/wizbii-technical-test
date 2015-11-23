@@ -27,7 +27,9 @@ L'API d'authentification suit les normes oAuth2.0. Il faut faire un appel POST s
 Si tout se passe bien, ce service répond avec une 200 contenant le access-token à fournir avec toutes les requêtes suivantes ainsi que le profile courant.
 Exemple  :
 
-```curl -X POST -H "Content-Type: application/x-www-form-urlencoded" -d 'username=decouverte%40wizbii.com&password=decouvertewizbii&client_id=test&grant_type=password' 'https://api.wizbii.com/v1/account/validate'```
+```shell
+curl -X POST -H "Content-Type: application/x-www-form-urlencoded" -d 'username=decouverte%40wizbii.com&password=decouvertewizbii&client_id=test&grant_type=password' 'https://api.wizbii.com/v1/account/validate'
+```
 
 Dashboard
 ---------
