@@ -40,4 +40,7 @@ L'API pour accéder au dashboard nécessite l'envoi du access-token dans les Hea
 
 Exemple :
 
-```curl -v -X POST -H "Authorization: Bearer 8edjjh0jsggscgoscokk8ok0gc40ss0" 'https://api.wizbii.com/v2/dashboard/?direction=newest'```
+```shell
+curl -v -X POST -H "Authorization: Bearer 8edjjh0jsggscgoscokk8ok0gc40ss0" \
+'https://api.wizbii.com/v2/dashboard/?direction=newest'
+```
