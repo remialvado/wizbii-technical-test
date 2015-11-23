@@ -1,7 +1,7 @@
 Obectifs
 ========
 
-Le but de cet exercice est de refaire une petite partie du flux d'actualité de Wizbii en se basant sur l'API publique offerte par Wizbii. Un exemple de ce qui est attendu en terme visuel est disponible à l'adresse https://remialvado.githib.io/wizbii-technical-test/index.html
+Le but de cet exercice est de refaire une petite partie du flux d'actualité de Wizbii en se basant sur l'API publique offerte par Wizbii. Un exemple de ce qui est attendu en terme visuel est disponible à l'adresse https://remialvado.github.io/wizbii-technical-test/index.html
 Cette API est sécurisée au moyen du protocole oAuth2.0 et est donc facilement compréhensible par tout Développeur Web.
 
 Les consignes de cet exercice :
