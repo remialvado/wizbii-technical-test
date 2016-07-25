@@ -12,6 +12,7 @@ Les consignes de cet exercice :
 * le choix des frameworks, outils, IDE, ... est laissé à ta convenance
 
 Quelques règles métier à implémenter. Pas besoin de toutes les implémenter, le but est de voir comment elles ont été développées, pas de remplacer notre outil existant :)
+
 1. pour éviter qu'une mesure ne soit collectée plusieurs fois par erreur, on estime qu'un évènement ne peut pas se produire plus d'une fois par seconde
 2. si les champs mandatory ne sont pas fournis, l'API doit retourner une erreur : à toi de définir le format de cette erreur.
 3. si le champs wci référence un utilisateur qui n'existe pas, l'API doit retourner une erreur. Pour cet exercice, cette liste sera mockée
