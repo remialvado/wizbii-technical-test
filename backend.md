@@ -9,7 +9,8 @@ Les consignes de cet exercice :
 * stocker les données dans une base NoSQL, MongoDB de préférence
 * réaliser le code Backend en PHP
 * le code doit être disponible sur github ou bitbucket. Pas besoin d'avoir une version déployée et fonctionnelle, c'est un plus mais l'objectif est de discuter sur le code
-* le choix des frameworks, outils, IDE, ... est laissé à ta convenance
+* le framework symfony doit être utilisé
+* le choix des outils, IDE, ... est laissé à ta convenance
 
 Quelques règles métier à implémenter. Pas besoin de toutes les implémenter, le but est de voir comment elles ont été développées, pas de remplacer notre outil existant :)
 
