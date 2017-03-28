@@ -10,7 +10,7 @@ Les consignes de cet exercice :
 * ne faire aucun appel au serveur pouvant créer de la donnée. Exemple : l'ajout de thanx ou de publications doit être mocké
 * les technos et outils utilisés ne sont pas imposées.
 * le compte à utiliser : decouverte@wizbii.com / decouvertewizbii
-* le code doit être disponible sur github ou bitbucket et une version fonctionnelle doit être disponible sur github pages, heroku, AWS, ... A toi de faire tes choix mais on veut voir du code et on veut le voir tourner
+* le code doit être disponible sur github ou bitbucket. A toi de faire tes choix mais on veut voir du code :)
 
 API
 ===
@@ -32,6 +32,8 @@ curl -X POST -H "Content-Type: application/x-www-form-urlencoded" \
 -d 'username=decouverte%40wizbii.com&password=decouvertewizbii&client_id=test&grant_type=password' \
 'https://api.wizbii.com/v1/account/validate'
 ```
+
+En cas de problème à faire fonctionner cette API dans le navigateur, une version mockée des données pourra être utilisée pour accélérer le développement de cet exercice
 
 Dashboard
 ---------
