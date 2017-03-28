@@ -44,5 +44,6 @@ Exemple :
 
 ```shell
 curl -v -X POST -H "Authorization: Bearer 8edjjh0jsggscgoscokk8ok0gc40ss0" \
+-d '{}' \
 'https://api.wizbii.com/v2/dashboard/?direction=newest'
 ```
