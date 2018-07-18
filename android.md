@@ -15,3 +15,4 @@ Consignes :
 - les tweets doivent être dans la langue de l'utilisateur
 - pour chaque tweet, il faut afficher le nom de l'utilisateur, le contenu du tweet, et l'image associée s'il y en a une
 - les liens présents dans le contenu d'un tweet sont cliquables
+- le code est dispo sur github, gitlab, bitbucket, ... pour qu'on puisse jeter un coup d'oeil avant l'entretien
