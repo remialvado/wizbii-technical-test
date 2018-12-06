@@ -9,7 +9,7 @@ Les consignes de cet exercice :
 * intégrer au minimum le module faisant apparaitre des publications simples.
 * ne faire aucun appel au serveur pouvant créer de la donnée. Exemple : l'ajout de thanx ou de publications doit être mocké
 * les technos et outils utilisés ne sont pas imposées.
-* le compte à utiliser : decouverte@wizbii.com / decouvertewizbii
+* le compte à utiliser : decouverte+2@wizbii.com / decouverte
 * le code doit être disponible sur github ou bitbucket. A toi de faire tes choix mais on veut voir du code :)
 
 API
@@ -29,7 +29,7 @@ Exemple  :
 
 ```shell
 curl -X POST -H "Content-Type: application/x-www-form-urlencoded" \
--d 'username=decouverte%40wizbii.com&password=decouvertewizbii&client_id=test&grant_type=password' \
+-d 'username=decouverte%2B2%40wizbii.com&password=decouverte&client_id=test&grant_type=password' \
 'https://api.wizbii.com/v1/account/validate'
 ```
 
@@ -43,7 +43,7 @@ L'API pour accéder au dashboard nécessite l'envoi du access-token dans les Hea
 Exemple :
 
 ```shell
-curl -v -X POST -H "Authorization: Bearer 8edjjh0jsggscgoscokk8ok0gc40ss0" \
+curl -v -X POST -H "Authorization: Bearer 4fce1edf2c6e50605b307ebcad5f86f917d2ff2bceccdbbba28b4ecef64ba087" \
 -d '{}' \
 'https://api.wizbii.com/v2/dashboard/?direction=newest'
 ```
