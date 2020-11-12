@@ -10,7 +10,7 @@ Les consignes de cet exercice :
 * ne faire aucun appel au serveur pouvant créer de la donnée. Exemple : l'ajout de thanx ou de publications doit être mocké
 * les technos et outils utilisés ne sont pas imposées.
 * le compte à utiliser : decouverte+2@wizbii.com / decouverte
-* le code doit être disponible sur github ou bitbucket. A toi de faire tes choix mais on veut voir du code :)
+* le code doit être disponible sur GitHub, Bitbucket ou GitLab. A toi de faire tes choix mais on veut voir du code :)
 
 API
 ===
